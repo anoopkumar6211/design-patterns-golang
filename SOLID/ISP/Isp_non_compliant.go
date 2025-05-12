@@ -15,11 +15,13 @@ func (e EmailOnlyNotifier) SendEmail(to string, msg string) {
 	fmt.Printf("Email to %s: %s\n", to, msg)
 }
 
+//Email notifier service un-necessary implementing sendSMS method but it has to bind with the contract specificed in interface(Notifier). 2 methods(sendSMS and sendPush) are just useless. 
 func (e EmailOnlyNotifier) SendSMS(to string, msg string) {
 	// Not supported
 	fmt.Println("SMS not supported")
 }
 
+//Email notifier service un-necessary implementing SendPush method but it has to bind with the contract specificed in interface(Notifier). 2 methods(sendSMS and sendPush) are just useless. 
 func (e EmailOnlyNotifier) SendPush(to string, msg string) {
 	// Not supported
 	fmt.Println("Push not supported")
