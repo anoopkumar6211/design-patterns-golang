@@ -1,0 +1,1 @@
+ISP stands for Interface Segregation Principle which encourages clean interfaces which does not enforce un-necessary implementations in child classes. If a monolith interface is having multiple behaviour then try to break it down basis individual behaviour which can be extended by child classes in case they need those behaviours.
