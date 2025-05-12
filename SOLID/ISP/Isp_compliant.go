@@ -61,7 +61,7 @@ func main() {
 /*
 Further improvements in this:
 Create Notification interface
-expose one method: sendNotification(Map<Data>);
+Expose one method: sendNotification(Map<Data>);
 
 Have respective implementation of Notification interface.
 
@@ -71,4 +71,3 @@ call notification.sendNotification(Map<Data>);
 
 Above one is more generic in nature. 
 */
-
