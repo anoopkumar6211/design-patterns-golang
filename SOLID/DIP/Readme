@@ -1,1 +1,2 @@
 
+DIP stands for Depedency Inversion Principle which encourages loose coupling of dependencies for a class.
