@@ -1,0 +1,3 @@
+OCP stands for Open Closed Principle which states that a class should be open for extenstion but closed for modification. 
+
+In simple terms, a tested class should code should not be modified rather if we need to add more behaviours, extend the class and add more behaviours. 
