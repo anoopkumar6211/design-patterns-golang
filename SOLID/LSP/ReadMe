@@ -1,0 +1,5 @@
+LSP stands  for Liskov Substitution Principle which encourages replacing one child class with another without breaking the behavior. Functionality should work as is for the another child class implementation. 
+
+A subclass should extend the behavior of the parent class without changing its fundamental characteristics.
+
+Subtypes must be substitutable for their base types. This means that if you have a class that uses a base type (superclass), it should be able to work with any subclass of that base type without issues.
